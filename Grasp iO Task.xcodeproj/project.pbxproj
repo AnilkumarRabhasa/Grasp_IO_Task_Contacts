@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1822AEF51E75504B00197DDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1822AEF41E75504B00197DDC /* AppDelegate.swift */; };
+		1822AEF71E75504C00197DDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1822AEF61E75504C00197DDC /* ViewController.swift */; };
+		1822AEFA1E75505000197DDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1822AEF81E75505000197DDC /* Main.storyboard */; };
+		1822AEFD1E75505700197DDC /* Grasp_iO_Task.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1822AEFB1E75505500197DDC /* Grasp_iO_Task.xcdatamodeld */; };
+		1822AEFF1E75505D00197DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1822AEFE1E75505D00197DDC /* Assets.xcassets */; };
+		1822AF021E75505E00197DDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1822AF001E75505E00197DDC /* LaunchScreen.storyboard */; };
+		1822AF0D1E75506500197DDC /* Grasp_iO_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1822AF0C1E75506500197DDC /* Grasp_iO_TaskTests.swift */; };
+		1822AF181E75506600197DDC /* Grasp_iO_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1822AF171E75506600197DDC /* Grasp_iO_TaskUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1822AF091E75506500197DDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1822AEE91E75504900197DDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1822AEF01E75504A00197DDC;
+			remoteInfo = "Grasp iO Task";
+		};
+		1822AF141E75506600197DDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1822AEE91E75504900197DDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1822AEF01E75504A00197DDC;
+			remoteInfo = "Grasp iO Task";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1822AEF11E75504A00197DDC /* Grasp iO Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grasp iO Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1822AEF41E75504B00197DDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1822AEF61E75504C00197DDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1822AEF91E75505000197DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1822AEFC1E75505500197DDC /* Grasp_iO_Task.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Grasp_iO_Task.xcdatamodel; sourceTree = "<group>"; };
+		1822AEFE1E75505D00197DDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1822AF011E75505E00197DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1822AF031E75506200197DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1822AF081E75506500197DDC /* Grasp iO TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grasp iO TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1822AF0C1E75506500197DDC /* Grasp_iO_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grasp_iO_TaskTests.swift; sourceTree = "<group>"; };
+		1822AF0E1E75506600197DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1822AF131E75506600197DDC /* Grasp iO TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grasp iO TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1822AF171E75506600197DDC /* Grasp_iO_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grasp_iO_TaskUITests.swift; sourceTree = "<group>"; };
+		1822AF191E75506600197DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1822AEEE1E75504A00197DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1822AF051E75506500197DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1822AF101E75506600197DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1822AEE81E75504900197DDC = {
+			isa = PBXGroup;
+			children = (
+				1822AEF31E75504A00197DDC /* Grasp iO Task */,
+				1822AF0B1E75506500197DDC /* Grasp iO TaskTests */,
+				1822AF161E75506600197DDC /* Grasp iO TaskUITests */,
+				1822AEF21E75504A00197DDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1822AEF21E75504A00197DDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1822AEF11E75504A00197DDC /* Grasp iO Task.app */,
+				1822AF081E75506500197DDC /* Grasp iO TaskTests.xctest */,
+				1822AF131E75506600197DDC /* Grasp iO TaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1822AEF31E75504A00197DDC /* Grasp iO Task */ = {
+			isa = PBXGroup;
+			children = (
+				1822AEF41E75504B00197DDC /* AppDelegate.swift */,
+				1822AEF61E75504C00197DDC /* ViewController.swift */,
+				1822AEF81E75505000197DDC /* Main.storyboard */,
+				1822AEFE1E75505D00197DDC /* Assets.xcassets */,
+				1822AF001E75505E00197DDC /* LaunchScreen.storyboard */,
+				1822AF031E75506200197DDC /* Info.plist */,
+				1822AEFB1E75505500197DDC /* Grasp_iO_Task.xcdatamodeld */,
+			);
+			path = "Grasp iO Task";
+			sourceTree = "<group>";
+		};
+		1822AF0B1E75506500197DDC /* Grasp iO TaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				1822AF0C1E75506500197DDC /* Grasp_iO_TaskTests.swift */,
+				1822AF0E1E75506600197DDC /* Info.plist */,
+			);
+			path = "Grasp iO TaskTests";
+			sourceTree = "<group>";
+		};
+		1822AF161E75506600197DDC /* Grasp iO TaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1822AF171E75506600197DDC /* Grasp_iO_TaskUITests.swift */,
+				1822AF191E75506600197DDC /* Info.plist */,
+			);
+			path = "Grasp iO TaskUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1822AEF01E75504A00197DDC /* Grasp iO Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1822AF1C1E75506600197DDC /* Build configuration list for PBXNativeTarget "Grasp iO Task" */;
+			buildPhases = (
+				1822AEED1E75504A00197DDC /* Sources */,
+				1822AEEE1E75504A00197DDC /* Frameworks */,
+				1822AEEF1E75504A00197DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Grasp iO Task";
+			productName = "Grasp iO Task";
+			productReference = 1822AEF11E75504A00197DDC /* Grasp iO Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1822AF071E75506500197DDC /* Grasp iO TaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1822AF1F1E75506600197DDC /* Build configuration list for PBXNativeTarget "Grasp iO TaskTests" */;
+			buildPhases = (
+				1822AF041E75506500197DDC /* Sources */,
+				1822AF051E75506500197DDC /* Frameworks */,
+				1822AF061E75506500197DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1822AF0A1E75506500197DDC /* PBXTargetDependency */,
+			);
+			name = "Grasp iO TaskTests";
+			productName = "Grasp iO TaskTests";
+			productReference = 1822AF081E75506500197DDC /* Grasp iO TaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1822AF121E75506600197DDC /* Grasp iO TaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1822AF221E75506600197DDC /* Build configuration list for PBXNativeTarget "Grasp iO TaskUITests" */;
+			buildPhases = (
+				1822AF0F1E75506600197DDC /* Sources */,
+				1822AF101E75506600197DDC /* Frameworks */,
+				1822AF111E75506600197DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1822AF151E75506600197DDC /* PBXTargetDependency */,
+			);
+			name = "Grasp iO TaskUITests";
+			productName = "Grasp iO TaskUITests";
+			productReference = 1822AF131E75506600197DDC /* Grasp iO TaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1822AEE91E75504900197DDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Anilkumar;
+				TargetAttributes = {
+					1822AEF01E75504A00197DDC = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					1822AF071E75506500197DDC = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1822AEF01E75504A00197DDC;
+					};
+					1822AF121E75506600197DDC = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1822AEF01E75504A00197DDC;
+					};
+				};
+			};
+			buildConfigurationList = 1822AEEC1E75504900197DDC /* Build configuration list for PBXProject "Grasp iO Task" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1822AEE81E75504900197DDC;
+			productRefGroup = 1822AEF21E75504A00197DDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1822AEF01E75504A00197DDC /* Grasp iO Task */,
+				1822AF071E75506500197DDC /* Grasp iO TaskTests */,
+				1822AF121E75506600197DDC /* Grasp iO TaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1822AEEF1E75504A00197DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1822AF021E75505E00197DDC /* LaunchScreen.storyboard in Resources */,
+				1822AEFF1E75505D00197DDC /* Assets.xcassets in Resources */,
+				1822AEFA1E75505000197DDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1822AF061E75506500197DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1822AF111E75506600197DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1822AEED1E75504A00197DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1822AEF71E75504C00197DDC /* ViewController.swift in Sources */,
+				1822AEFD1E75505700197DDC /* Grasp_iO_Task.xcdatamodeld in Sources */,
+				1822AEF51E75504B00197DDC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1822AF041E75506500197DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1822AF0D1E75506500197DDC /* Grasp_iO_TaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1822AF0F1E75506600197DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1822AF181E75506600197DDC /* Grasp_iO_TaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1822AF0A1E75506500197DDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1822AEF01E75504A00197DDC /* Grasp iO Task */;
+			targetProxy = 1822AF091E75506500197DDC /* PBXContainerItemProxy */;
+		};
+		1822AF151E75506600197DDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1822AEF01E75504A00197DDC /* Grasp iO Task */;
+			targetProxy = 1822AF141E75506600197DDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1822AEF81E75505000197DDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1822AEF91E75505000197DDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1822AF001E75505E00197DDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1822AF011E75505E00197DDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1822AF1A1E75506600197DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1822AF1B1E75506600197DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1822AF1D1E75506600197DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Grasp iO Task/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anilkumar.Grasp-iO-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1822AF1E1E75506600197DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Grasp iO Task/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anilkumar.Grasp-iO-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1822AF201E75506600197DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Grasp iO TaskTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anilkumar.Grasp-iO-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grasp iO Task.app/Grasp iO Task";
+			};
+			name = Debug;
+		};
+		1822AF211E75506600197DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Grasp iO TaskTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anilkumar.Grasp-iO-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grasp iO Task.app/Grasp iO Task";
+			};
+			name = Release;
+		};
+		1822AF231E75506600197DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Grasp iO TaskUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anilkumar.Grasp-iO-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Grasp iO Task";
+			};
+			name = Debug;
+		};
+		1822AF241E75506600197DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Grasp iO TaskUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anilkumar.Grasp-iO-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Grasp iO Task";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1822AEEC1E75504900197DDC /* Build configuration list for PBXProject "Grasp iO Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1822AF1A1E75506600197DDC /* Debug */,
+				1822AF1B1E75506600197DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1822AF1C1E75506600197DDC /* Build configuration list for PBXNativeTarget "Grasp iO Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1822AF1D1E75506600197DDC /* Debug */,
+				1822AF1E1E75506600197DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1822AF1F1E75506600197DDC /* Build configuration list for PBXNativeTarget "Grasp iO TaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1822AF201E75506600197DDC /* Debug */,
+				1822AF211E75506600197DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1822AF221E75506600197DDC /* Build configuration list for PBXNativeTarget "Grasp iO TaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1822AF231E75506600197DDC /* Debug */,
+				1822AF241E75506600197DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1822AEFB1E75505500197DDC /* Grasp_iO_Task.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1822AEFC1E75505500197DDC /* Grasp_iO_Task.xcdatamodel */,
+			);
+			currentVersion = 1822AEFC1E75505500197DDC /* Grasp_iO_Task.xcdatamodel */;
+			path = Grasp_iO_Task.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1822AEE91E75504900197DDC /* Project object */;
+}
