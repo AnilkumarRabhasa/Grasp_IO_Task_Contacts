@@ -15,6 +15,9 @@
 		1822AF021E75505E00197DDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1822AF001E75505E00197DDC /* LaunchScreen.storyboard */; };
 		1822AF0D1E75506500197DDC /* Grasp_iO_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1822AF0C1E75506500197DDC /* Grasp_iO_TaskTests.swift */; };
 		1822AF181E75506600197DDC /* Grasp_iO_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1822AF171E75506600197DDC /* Grasp_iO_TaskUITests.swift */; };
+		1823A48D1E784F4E008B6805 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1823A48B1E784F4D008B6805 /* Contacts.framework */; };
+		1823A48E1E784F4F008B6805 /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1823A48C1E784F4E008B6805 /* ContactsUI.framework */; };
+		1881FD871E7863A400403DD1 /* Menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1881FD861E7863A400403DD1 /* Menu.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		1822AF131E75506600197DDC /* Grasp iO TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grasp iO TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1822AF171E75506600197DDC /* Grasp_iO_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grasp_iO_TaskUITests.swift; sourceTree = "<group>"; };
 		1822AF191E75506600197DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1823A48B1E784F4D008B6805 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		1823A48C1E784F4E008B6805 /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = System/Library/Frameworks/ContactsUI.framework; sourceTree = SDKROOT; };
+		1881FD861E7863A400403DD1 /* Menu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Menu.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1823A48D1E784F4E008B6805 /* Contacts.framework in Frameworks */,
+				1823A48E1E784F4F008B6805 /* ContactsUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +91,7 @@
 				1822AF0B1E75506500197DDC /* Grasp iO TaskTests */,
 				1822AF161E75506600197DDC /* Grasp iO TaskUITests */,
 				1822AEF21E75504A00197DDC /* Products */,
+				1823A48A1E784F49008B6805 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +114,7 @@
 				1822AEFE1E75505D00197DDC /* Assets.xcassets */,
 				1822AF001E75505E00197DDC /* LaunchScreen.storyboard */,
 				1822AF031E75506200197DDC /* Info.plist */,
+				1881FD861E7863A400403DD1 /* Menu.plist */,
 				1822AEFB1E75505500197DDC /* Grasp_iO_Task.xcdatamodeld */,
 			);
 			path = "Grasp iO Task";
@@ -126,6 +136,15 @@
 				1822AF191E75506600197DDC /* Info.plist */,
 			);
 			path = "Grasp iO TaskUITests";
+			sourceTree = "<group>";
+		};
+		1823A48A1E784F49008B6805 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1823A48B1E784F4D008B6805 /* Contacts.framework */,
+				1823A48C1E784F4E008B6805 /* ContactsUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1822AF021E75505E00197DDC /* LaunchScreen.storyboard in Resources */,
+				1881FD871E7863A400403DD1 /* Menu.plist in Resources */,
 				1822AEFF1E75505D00197DDC /* Assets.xcassets in Resources */,
 				1822AEFA1E75505000197DDC /* Main.storyboard in Resources */,
 			);
@@ -415,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Grasp iO Task/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.anilkumar.Grasp-iO-Task";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +448,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Grasp iO Task/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.anilkumar.Grasp-iO-Task";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +529,7 @@
 				1822AF1E1E75506600197DDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1822AF1F1E75506600197DDC /* Build configuration list for PBXNativeTarget "Grasp iO TaskTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +538,7 @@
 				1822AF211E75506600197DDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1822AF221E75506600197DDC /* Build configuration list for PBXNativeTarget "Grasp iO TaskUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +547,7 @@
 				1822AF241E75506600197DDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
